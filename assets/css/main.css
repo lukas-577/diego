@@ -3631,7 +3631,7 @@ body.subpage {
 }
 
 #header {
-    background: rgba(0, 0, 0, 0.975);
+    background: hsla(197, 79%, 32%, 0.949);
     color: #a6a6a6;
     cursor: default;
     height: 3.25em;
@@ -3791,7 +3791,7 @@ body.subpage {
     -ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
     transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
     -webkit-overflow-scrolling: touch;
-    background: rgba(0, 0, 0, 0.95);
+    background: hsla(197, 79%, 32%, 0.949);
     box-shadow: none;
     color: #000;
     height: 100%;
@@ -4192,7 +4192,7 @@ body.is-mobile .banner>article {
 
 #footer {
     padding: 4rem 0 2rem 0;
-    background: #000;
+    background: hsla(197, 64%, 48%, 0.949);
     text-align: center;
 }
 
@@ -4221,18 +4221,27 @@ body.is-mobile .banner>article {
 
 /*css que yo agrege*/
 
-.contenedor {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-}
-
 iframe {
     max-width: 100%;
     height: auto;
 }
 
 .video {
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: letra;
+    src: url("letra.ttf");
+}
+
+letra {
+    font-family: letra;
+    font-size: xx-large
+}
+
+gif {
     max-width: 100%;
     height: auto;
 }
