@@ -2883,7 +2883,8 @@ table.alt tbody tr td {
 .wrapper.style2 input[type="button"],
 .wrapper.style2 button,
 .wrapper.style2 .button {
-    background-color: #000;
+    background-color: hsla(197, 64%, 48%, 0.949);
+    /* aqui se puede cambiar el color  */
     color: #f2f2f2 !important;
 }
 
@@ -4262,4 +4263,17 @@ gif {
 
 .whatsapp-icon {
     margin-top: 13px;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    background: rgb(16, 174, 247);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 30px;
+    color: white;
+    font-size: 200px;
+    transition: .3s ease all;
 }
